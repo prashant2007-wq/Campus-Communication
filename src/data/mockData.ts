@@ -9,7 +9,7 @@ export interface Event {
   organizer: string;
   organizerContact: string;
   description: string;
-  matchScore: number; 
+  matchScore: number;  
   registeredCount: number; 
   capacity: number;
   tags: string[];
