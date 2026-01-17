@@ -1,9 +1,7 @@
 import { userProfile, mockEvents } from '../data/mockData';
 import { BarChart3, TrendingUp, Calendar, Users, Award, Target } from 'lucide-react';
-
 export function Analytics() {
   const totalEventsAttended = Object.values(userProfile.pastAttendance).reduce((a, b) => a + b, 0);
-  
   const categoryStats = Object.entries(userProfile.pastAttendance).map(([category, count]) => ({
     category,
     count,
