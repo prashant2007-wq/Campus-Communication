@@ -16,8 +16,7 @@ export interface Event {
   source: 'email' | 'slack' | 'whatsapp' | 'instagram' | 'notice-board';
   attendingFriends: string[];
   hasConflict?: boolean;
-  conflictsWith?: string[]; 
- 
+  conflictsWith?: string[];
 export const mockEvents: Event[] = [
   {
     id: '1',
