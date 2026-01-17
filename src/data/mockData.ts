@@ -17,13 +17,12 @@ export interface Event {
   attendingFriends: string[];
   hasConflict?: boolean;
   conflictsWith?: string[];
-} 
+} // ✅ FIX: interface closed
 
 export const mockEvents: Event[] = [
-
   {
     id: '1',
-    title: 'AI for Social Good Hackathon', 
+    title: 'AI for Social Good Hackathon',
     category: 'AI/ML',
     date: '2026-01-20',
     time: '09:00',
@@ -186,7 +185,7 @@ export const mockEvents: Event[] = [
     tags: ['Startups', 'Founding', 'Business'],
     source: 'slack',
     attendingFriends: ['Alex Kim', 'Tom Anderson'],
-  }, 
+  },
   {
     id: '10',
     title: 'Open Mic Night',
