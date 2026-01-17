@@ -4,20 +4,23 @@ export interface Event {
   category: 'Tech' | 'AI/ML' | 'Career Development' | 'Entrepreneurship' | 'Cultural' | 'Sports';
   date: string;
   time: string;
-  duration: number; 
-  location: string;  
+  duration: number;
+  location: string;
   organizer: string;
-  organizerContact: string; 
+  organizerContact: string;
   description: string;
-  matchScore: number;  
-  registeredCount: number;   
+  matchScore: number;
+  registeredCount: number;
   capacity: number;
   tags: string[];
   source: 'email' | 'slack' | 'whatsapp' | 'instagram' | 'notice-board';
-  attendingFriends: string[]; 
+  attendingFriends: string[];
   hasConflict?: boolean;
   conflictsWith?: string[];
+} 
+
 export const mockEvents: Event[] = [
+
   {
     id: '1',
     title: 'AI for Social Good Hackathon', 
