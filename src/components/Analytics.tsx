@@ -7,7 +7,6 @@ export function Analytics() {
     count,
     percentage: (count / totalEventsAttended) * 100,
   })).sort((a, b) => b.count - a.count);
-
   const categoryColors: Record<string, string> = {
     'Tech': 'bg-blue-500',
     'AI/ML': 'bg-purple-500',
