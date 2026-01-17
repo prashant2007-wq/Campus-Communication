@@ -10,7 +10,7 @@ export interface Event {
   organizerContact: string;
   description: string;
   matchScore: number; 
-  registeredCount: number;
+  registeredCount: number; 
   capacity: number;
   tags: string[];
   source: 'email' | 'slack' | 'whatsapp' | 'instagram' | 'notice-board';
