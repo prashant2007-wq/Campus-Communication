@@ -21,7 +21,7 @@ export interface Event {
 export const mockEvents: Event[] = [
   {
     id: '1',
-    title: 'AI for Social Good Hackathon',
+    title: 'AI for Social Good Hackathon', 
     category: 'AI/ML',
     date: '2026-01-20',
     time: '09:00',
