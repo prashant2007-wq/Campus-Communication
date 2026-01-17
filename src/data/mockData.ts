@@ -184,7 +184,7 @@ export const mockEvents: Event[] = [
     tags: ['Startups', 'Founding', 'Business'],
     source: 'slack',
     attendingFriends: ['Alex Kim', 'Tom Anderson'],
-  },
+  }, 
   {
     id: '10',
     title: 'Open Mic Night',
