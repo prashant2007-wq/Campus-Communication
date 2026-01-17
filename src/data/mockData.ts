@@ -4,7 +4,7 @@ export interface Event {
   category: 'Tech' | 'AI/ML' | 'Career Development' | 'Entrepreneurship' | 'Cultural' | 'Sports';
   date: string;
   time: string;
-  duration: number; // in minutes
+  duration: number; 
   location: string;
   organizer: string;
   organizerContact: string;
