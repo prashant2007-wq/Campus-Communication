@@ -7,7 +7,7 @@ export interface Event {
   duration: number; 
   location: string;  
   organizer: string;
-  organizerContact: string;
+  organizerContact: string; 
   description: string;
   matchScore: number;  
   registeredCount: number;   
