@@ -5,7 +5,7 @@ export interface Event {
   date: string;
   time: string;
   duration: number; 
-  location: string;
+  location: string; 
   organizer: string;
   organizerContact: string;
   description: string;
