@@ -17,9 +17,10 @@ export interface Event {
   attendingFriends: string[];
   hasConflict?: boolean;
   conflictsWith?: string[];
-} // ✅ FIX: interface closed
+}   // ✅ THIS LINE WAS MISSING
 
 export const mockEvents: Event[] = [
+
   {
     id: '1',
     title: 'AI for Social Good Hackathon',
