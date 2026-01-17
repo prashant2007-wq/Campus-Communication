@@ -17,7 +17,7 @@ export interface Event {
   attendingFriends: string[];
   hasConflict?: boolean;
   conflictsWith?: string[]; 
-}
+ 
 export const mockEvents: Event[] = [
   {
     id: '1',
