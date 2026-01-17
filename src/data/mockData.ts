@@ -18,7 +18,6 @@ export interface Event {
   hasConflict?: boolean;
   conflictsWith?: string[];
 }
-
 export const mockEvents: Event[] = [
   {
     id: '1',
