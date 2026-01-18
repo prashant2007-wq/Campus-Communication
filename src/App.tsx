@@ -4,7 +4,7 @@ import { ConflictResolver } from './components/ConflictResolver';
 import { CalendarView } from './components/CalendarView'; 
 import { Analytics } from './components/Analytics';
 import { Settings } from './components/Settings';
-import { NotificationSimulator } from './components/NotificationSimulator';
+import { NotificationSimulator } from './components/NotificationSimulator'; 
 import { NotificationSetup } from './components/NotificationSetup'; 
 import { NotificationCenter } from './components/NotificationCenter';
 import { AutoNotificationTrigger } from './components/AutoNotificationTrigger';
