@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Dashboard } from './components/Dashboard';
 import { ConflictResolver } from './components/ConflictResolver';
-import { CalendarView } from './components/CalendarView';
+import { CalendarView } from './components/CalendarView'; 
 import { Analytics } from './components/Analytics';
 import { Settings } from './components/Settings';
 import { NotificationSimulator } from './components/NotificationSimulator';
