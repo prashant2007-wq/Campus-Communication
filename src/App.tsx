@@ -10,7 +10,6 @@ import { NotificationCenter } from './components/NotificationCenter';
 import { AutoNotificationTrigger } from './components/AutoNotificationTrigger';
 import { WelcomeTour } from './components/WelcomeTour';
 import { LayoutGrid, Calendar, BarChart3, Settings as SettingsIcon, Bell } from 'lucide-react';
-
 export default function App() {
   const [activeView, setActiveView] = useState<'dashboard' | 'calendar' | 'analytics' | 'settings' | 'notifications'>('dashboard');
   const [notificationSetupComplete, setNotificationSetupComplete] = useState(false);
